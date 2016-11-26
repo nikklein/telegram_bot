@@ -15,7 +15,7 @@ const telegramSettings = {
     credentials: {
         authToken: process.env.TELEGRAM_AUTH_TOKEN,
     },
-    // !! see Readme if you have any issues with understanding webhooks
+
     webhookEndpoint: '/webhook83fjdEREWfjsdn3645gdwejjsamnfrt442',
 };
 

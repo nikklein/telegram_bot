@@ -18,15 +18,7 @@ const telegramSettings = {
     },
     webhookEndpoint: '/webhook1234/',
 };
-// 
-// const messengerSettings = {
-//     credentials: {
-//         verifyToken: process.env.MESSENGER_VERIFY_TOKEN,
-//         pageToken: process.env.MESSENGER_PAGE_TOKEN,
-//         fbAppSecret: process.env.FACEBOOK_APP_SECRET,
-//     },
-//     webhookEndpoint: '/webhook1234/',
-// };
+
 
 const botsSettings = [{
     telegram: telegramSettings
@@ -51,8 +43,8 @@ botmaster.on('update', (bot, update) => {
 });
 
 console.log(`Loading App`);
-// start server on the specified port and binding host
+
 app.listen(port, '0.0.0.0', () => {
-    // print a message when the server starts listening
+
     console.log(`Running App on port: ${port}`);
 });
